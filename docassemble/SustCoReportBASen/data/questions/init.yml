@@ -947,8 +947,19 @@ code: |
 #
 #---
 
+template: sustcoreport_email
+subject: |
+  Your SustCoReport 
+content: |
+  Dear sir or madam,
+  
+  Attached you'll find your SustCoReport.
+
+---
+
 mandatory: True
 section: Report
+email template: sustcoreport_email
 css class: report_download
 #decoration: sds_favicon
 question: Your SustCoReport is ready for download
@@ -960,14 +971,6 @@ attachments:
     valid formats:
       - pdf
       #- docx
-    description: |
-      A document with a classic message
-    content: |
-      Hello, world!
-
-
-
-
 
 buttons:
   #- Continue: continue
