@@ -963,7 +963,7 @@ email template: sustcoreport_email
 css class: report_download
 #decoration: sds_favicon
 question: Your SustCoReport is ready for download
-
+subquestion: Congratulations, you have now created your SustCoReport, which can form the basis for your organization's continued work to contribute to asustainable development.<br><br>Good luck!
 attachments:
   - name: ""
     filename: sustcoreport_base_${df.Organisation[0]}
