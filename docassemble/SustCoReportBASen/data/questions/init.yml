@@ -922,9 +922,13 @@ code: |
 
   scatter_plot = show_graph_scatter(df=df_scatter,   filename="scatter_plot.png", visualization_image=visualization_image_scatter, height=500, width=900)
   
-  reponse_status_code=store_interview_results(df.loc[0,:].to_dict())
-
-
+  ## store data
+  if not "playground" in interview_url():
+    data = df.loc[0,:].to_dict()
+    data['source'] = "SustCoReportBASen"
+    reponse_status_code=store_interview_results(data)
+  
+  
 ---
 ### Signature for respondent
 #mandatory: True
