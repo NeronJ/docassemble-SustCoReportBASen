@@ -19,7 +19,7 @@ subquestion: |
  
   It takes an estimated 15-20 minutes to complete the questions, which generates a unique report for your company or organization.
   
-  The process is completely anonymous and no information that can be linked to you or your company or organization will be recorded. Read more about how submitted information is handled via the link {information management}<br><br>
+  The process is completely anonymous and no information that can be linked to you or your company or organization will be recorded. Read more about how submitted information is handled via the link {information management}.<br><br>
 
 
 buttons:
@@ -134,7 +134,7 @@ fields:
     required: True
     code: |
       scr_application_likert
-  - 3) importance for your sector in 10 years: results[i].q5_respb_imp_10
+  - 3) Importance for your sector in 10 years: results[i].q5_respb_imp_10
     required: True
     code: |
       scr_importance_likert
@@ -154,7 +154,7 @@ fields:
     required: True
     code: |
       scr_application_likert
-  - 3) importance for your sector in 10 years: results[i].q5_trans_imp_10
+  - 3) Importance for your sector in 10 years: results[i].q5_trans_imp_10
     required: True
     code: |
       scr_importance_likert
@@ -175,7 +175,7 @@ fields:
     required: True
     code: |
       scr_application_likert
-  - 3) importance for your sector in 10 years: results[i].q5_ethic_imp_10
+  - 3) Importance for your sector in 10 years: results[i].q5_ethic_imp_10
     required: True
     code: |
       scr_importance_likert
@@ -196,7 +196,7 @@ fields:
     required: True
     code: |
      scr_application_likert
-  - 3) importance for your sector in 10 years: results[i].q5_resp_stake_imp_10
+  - 3) Importance for your sector in 10 years: results[i].q5_resp_stake_imp_10
     required: True
     code: |
       scr_importance_likert
@@ -217,7 +217,7 @@ fields:
     required: True
     code: |
      scr_application_likert
-  - 3) importance for your sector in 10 years: results[i].q5_resp_state_imp_10
+  - 3) Importance for your sector in 10 years: results[i].q5_resp_state_imp_10
     required: True
     code: |
       scr_importance_likert
@@ -238,7 +238,7 @@ fields:
     required: True
     code: |
      scr_application_likert
-  - 3) importance for your sector in 10 years: results[i].q5_resp_int_imp_10
+  - 3) Importance for your sector in 10 years: results[i].q5_resp_int_imp_10
     required: True
     code: |
       scr_importance_likert
@@ -258,7 +258,7 @@ fields:
     required: True
     code: |
      scr_application_likert
-  - 3) importance for your sector in 10 years<br><br><br>: results[i].q5_resp_hr_imp_10
+  - 3) Importance for your sector in 10 years: results[i].q5_resp_hr_imp_10
     required: True
     code: |
       scr_importance_likert
@@ -284,7 +284,7 @@ question: |
   ISO 26000: The 7 core subjects
 #* Genom att fråga om [...] 
 subquestion: |
-  Describe how your business relates to the 7 core subjects by answering the questions below: <br> <br>
+  Describe how your organization relates to the 7 core subjects by answering the questions below: <br> <br>
   1) How significant is ** your organization's current impact ** on the core subject area? <br> <br>
   2) How significant is ** your sector's current impact ** on the core subject area?<br> <br>
   3) How significant will ** your sector's impact be in 10 years ** on the core subject area? <br> <br>
@@ -461,7 +461,7 @@ subquestion: |
 fields:
   - note: <hr>
 
-  - note: 1) What are the 5 most important stakeholder types for ** your organization today **?
+  - note: 1) What are the 5 most important stakeholder types for **your organization today**?
   - : results[i].import_stakeholders
     required: True
     datatype: checkboxes
@@ -492,7 +492,7 @@ fields:
 
   - note: <hr>
 
-  - note: 2) What are the 5 most important stakeholder types for ** your sector today **?
+  - note: 2) What are the 5 most important stakeholder types for **your sector today**?
   - : results[i].import_stakeholders_ind
     required: True
     datatype: checkboxes
@@ -526,7 +526,7 @@ fields:
   - note: <hr>
 
 
-  - note: 3) What are the 5 most important stakeholder types for ** your sector in 10 years **?
+  - note: 3) What are the 5 most important stakeholder types for **your sector in 10 years**?
   - : results[i].import_stakeholders_ind_10
     required: True
     datatype: checkboxes
@@ -576,7 +576,7 @@ question: |
 
 
 subquestion: |
-  Prioritization can help identifiy areas with the largest effect for an organisations as well as the socitey at large.<br><br>
+  Prioritization can help identifiy areas with the largest effect for an organisation as well as the socitey at large.<br><br>
   
   SustCoReport highlights two priority bases - the core subject areas and the UN's global goals for sustainable development. You can then add your own specific priorities based on your unique budget, skills, strategy and communication. <br> <br>
   
@@ -619,7 +619,7 @@ fields:
 
   - note: 2) Which 3 of the UN's 17 global goals for sustainable development do you consider to be most important for ** your organization's** long-term success?
 
-  - Svar : results[i].q22_sdg_org
+  - Responses : results[i].q22_sdg_org
     required: True
     datatype: checkboxes
     choices:
@@ -638,8 +638,8 @@ fields:
       - 13 - Climate Action
       - 14 - Life Below Water
       - 15 - Life on Land
-      - 16 - Peace and Justice Strong Institutions
-      - 17 - Partnerships to achieve the Goal
+      - 16 - Peace, Justice and Strong Institutions
+      - 17 - Partnerships for the goals
     none of the above: False
     maxlength: 3
 
@@ -647,7 +647,7 @@ fields:
 
   - note: 3) Which 3 of the UN's 17 global goals for sustainable development do you consider to be most important for ** the world's ** long-term success?
 
-  - Svar : results[i].q22_sdg_world
+  - Responses : results[i].q22_sdg_world
     required: True
     datatype: checkboxes
     choices:
@@ -666,8 +666,8 @@ fields:
       - 13 - Climate Action
       - 14 - Life Below Water
       - 15 - Life on Land
-      - 16 - Peace and Justice Strong Institutions
-      - 17 - Partnerships to achieve the Goal
+      - 16 - Peace, Justice and Strong Institutions
+      - 17 - Partnerships for the goals
     none of the above: False
     maxlength: 3
 
@@ -963,7 +963,7 @@ email template: sustcoreport_email
 css class: report_download
 #decoration: sds_favicon
 question: Your SustCoReport is ready for download
-subquestion: Congratulations, you have now created your SustCoReport, which can form the basis for your organization's continued work to contribute to asustainable development.<br><br>Good luck!
+subquestion: Congratulations, you have now created your SustCoReport, which can form the basis for your organization's continued work to contribute to a sustainable development.<br><br>Good luck!
 attachments:
   - name: ""
     filename: sustcoreport_base_${df.Organisation[0]}
