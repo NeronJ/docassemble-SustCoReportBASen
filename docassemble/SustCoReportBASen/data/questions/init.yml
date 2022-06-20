@@ -44,7 +44,7 @@ fields:
   - Today's date: results[i].date
     datatype: date
     required: True
-  - Your name: responsible_person_docinput
+  - Your name: results[i].person_name
     required: False
   - Name of the organization: results[i].name.text
     required: True
