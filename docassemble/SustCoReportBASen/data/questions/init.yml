@@ -44,8 +44,6 @@ fields:
   - Today's date: results[i].date
     datatype: date
     required: True
-  - Your name: results[i].person_name
-    required: False
   - Name of the organization: results[i].name.text
     required: True
   - Organizational form: results[i].org_form
@@ -91,7 +89,9 @@ fields:
       - Representation abroad
       - No international operations
     none of the above: True
-
+  - SustPrio Participant code: results[i].person_name
+    required: False
+    
 continue button label: |
   Continue
 back button: True
