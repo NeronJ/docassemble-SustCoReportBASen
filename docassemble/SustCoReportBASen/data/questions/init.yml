@@ -292,27 +292,6 @@ subquestion: |
 fields:
   - note: <hr>
   
-  - note: <p>{Organizational governance}<span>&nbsp;</span><span>&#9432;</span><br>
-  - 1) Your organization's impact: results[i].q11_operation_est
-    required: True
-    code: |
-      scr_significance_likert
-  - 2) Your sector's impact <u>today</u>: results[i].q11_operation_est_industry
-    required: True
-    code: |
-      scr_significance_likert
-  - 3) Your sector's impact <u>in 10 years</u>: results[i].q11_operation_est_industry_10
-    required: True
-    code: |
-      scr_significance_likert
-  - 4) Your organization's impact according to <u>key stakeholders</u><br><br>: results[i].q11_operation_est_stakeh
-    required: True
-    code: |
-      scr_significance_likert
-
-
-  - note: <hr>
-  
   - note: <p>{Human rights}<span>&nbsp;</span><span>&#9432;</span><br>
   - 1) Your organization's impact: results[i].q11_mr_est
     required: True
@@ -435,6 +414,30 @@ fields:
     required: True
     code: |
       scr_significance_likert
+
+  - note: <hr>
+  
+  - note: <p>The last core subject deviates from the others since it is more a prerequisite for impacting within the other 6 core subjects.<br><br>The question thus becomes how significant {Organizational governance}<span>&nbsp;</span><span>&#9432;</span> is for an overall impact within the 6 mentioned core subjects.<br>  
+  - 1) Your organization's impact: results[i].q11_operation_est
+    required: True
+    code: |
+      scr_significance_likert
+  - 2) Your sector's impact <u>today</u>: results[i].q11_operation_est_industry
+    required: True
+    code: |
+      scr_significance_likert
+  - 3) Your sector's impact <u>in 10 years</u>: results[i].q11_operation_est_industry_10
+    required: True
+    code: |
+      scr_significance_likert
+  - 4) Your organization's impact according to <u>key stakeholders</u><br><br>: results[i].q11_operation_est_stakeh
+    required: True
+    code: |
+      scr_significance_likert
+
+
+  - note: <hr>
+
 
 
 continue button label: |
