@@ -118,7 +118,7 @@ subquestion: |
   1) How ** important ** is the principle for ** your organization**? <br><br>
   2) To what extent ** do you apply the ** principle in ** your organization? ** <br><br>
   3) How ** important ** is the principle to ** your sector in 10 years **? <br><br>
-  4) How ** Important ** do you think the principle is for ** your stakeholders **? <br><br>
+  4) How ** important ** do you think the principle is for ** your stakeholders **? <br><br>
  
   *Note that you can get examples of the different principles by placing the mouse cursor on each principle below*<br><br>
 fields:
@@ -477,7 +477,7 @@ fields:
       - Insurance companies
       - Colleges/Universities
       - Non-governmental organizations
-      - Investors/financiers
+      - Financiers
       - Consumers
       - Customers
       - Suppliers
@@ -510,7 +510,7 @@ fields:
       - Insurance companies
       - Colleges/Universities
       - Non-governmental organizations
-      - Investors/financiers
+      - Financiers
       - Consumers
       - Customers
       - Suppliers
@@ -982,7 +982,7 @@ attachments:
 buttons:
   #- Continue: continue
   - Exit: exit
-    url: https://sustcoreport.com/en
+    url: https://sustcoreport.com/
 back button: True
 back button label: | 
   Back
@@ -1028,7 +1028,7 @@ under: |
 
 #buttons:
 #  - Exit: exit
-#    url: https://sustcoreport.com/en
+#    url: https://sustcoreport.com/
   #- Konsultstöd: exit
   #  url: https://amap.se/
   #- SIS/TS 2:2021: exit
