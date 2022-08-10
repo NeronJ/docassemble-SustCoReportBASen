@@ -89,7 +89,7 @@ fields:
       - Representation abroad
       - No international operations
     none of the above: True
-  - SustPrio Participant code: results[i].person_name
+  - If you have a <b>SustPrio Participant code</b> submit it here, otherwise skip this field: results[i].person_name
     required: False
     
 continue button label: |
@@ -124,7 +124,7 @@ subquestion: |
 fields:
   - note: <hr> ## styling is done with css - see separate file. 
 
-  - note: <p>{Accountability}<span>&nbsp;</span><span>&#9432;</span><br>
+  - note: <p>{Accountability|Accountability :far-fa-comment-dots:}</p>
 
   - 1) Importance for your organization: results[i].q5_respb_imp_est
     required: True
@@ -145,7 +145,7 @@ fields:
     
   - note: <hr>
 
-  - note: <p>{Transparency}<span>&nbsp;</span><span>&#9432;</span><br> 
+  - note: <p>{Transparency|Transparency :far-fa-comment-dots:}</p>
   - 1) Importance for your organization: results[i].q5_trans_imp_est
     required: True
     code: |
@@ -166,7 +166,7 @@ fields:
 
   - note: <hr>
 
-  - note: <p>{Ethical behavior}<span>&nbsp;</span><span>&#9432;</span><br>
+  - note: <p>{Ethical behavior|Ethical behavior :far-fa-comment-dots:}</p>
   - 1) Importance for your organization: results[i].q5_ethic_imp_est
     required: True
     code: |
@@ -187,7 +187,7 @@ fields:
 
   - note: <hr>
 
-  - note: <p>{Respect for stakeholder interests}<span>&nbsp;</span><span>&#9432;</span><br>
+  - note: <p>{Respect for stakeholder interests|Respect for stakeholder interests :far-fa-comment-dots:}</p>
   - 1) Importance for your organization: results[i].q5_resp_stake_imp_est
     required: True
     code: | 
@@ -208,7 +208,7 @@ fields:
 
   - note: <hr>
 
-  - note: <p>{Respect for the rule of law}<span>&nbsp;</span><span>&#9432;</span><br>
+  - note: <p>{Respect for the rule of law|Respect for the rule of law :far-fa-comment-dots:}</p>
   - 1) Importance for your organization: results[i].q5_resp_state_imp_est
     required: True
     code: | 
@@ -229,7 +229,7 @@ fields:
 
   - note: <hr>
 
-  - note: <p>{Respect for international norms of behaviour}<span>&nbsp;</span><span>&#9432;</span><br>
+  - note: <p>{Respect for international norms of behaviour|Respect for international norms of behaviour :far-fa-comment-dots:}</p>
   - 1) Importance for your organization: results[i].q5_resp_int_imp_est
     required: True
     code: |
@@ -249,7 +249,7 @@ fields:
     
 
   - note: <hr>
-  - note: <p>{Respect for human rights}<span>&nbsp;</span><span>&#9432;</span><br>
+  - note: <p>{Respect for human rights|Respect for human rights :far-fa-comment-dots:}</p>
   - 1) Importance for your organization: results[i].q5_resp_hr_imp_est
     required: True
     code: |
@@ -292,7 +292,7 @@ subquestion: |
 fields:
   - note: <hr>
   
-  - note: <p>{Human rights}<span>&nbsp;</span><span>&#9432;</span><br>
+  - note: <p>{Human rights|Human rights :far-fa-comment-dots:}</p>
   - 1) Your organization's impact: results[i].q11_mr_est
     required: True
     code: |
@@ -313,7 +313,7 @@ fields:
 
   - note: <hr>
 
-  - note: <p>{Labour practices}<span>&nbsp;</span><span>&#9432;</span><br>
+  - note: <p>{Labour practices|Labour practices :far-fa-comment-dots:}</p>
   - 1) Your organization's impact: results[i].q11_arb_est
     required: True
     code: |
@@ -334,7 +334,7 @@ fields:
 
   - note: <hr>
   
-  - note: <p>{Environment}<span>&nbsp;</span><span>&#9432;</span><br>
+  - note: <p>{Environment|Environment :far-fa-comment-dots:}</p>
   - 1) Your organization's impact: results[i].q11_milj_est
     required: True
     code: |
@@ -355,7 +355,7 @@ fields:
 
   - note: <hr>
   
-  - note: <p>{Fair operating practices}<span>&nbsp;</span><span>&#9432;</span><br>
+  - note: <p>{Fair operating practices|Fair operating practices :far-fa-comment-dots:}</p>
   - 1) Your organization's impact: results[i].q11_gverk_est
     required: True
     code: |
@@ -376,7 +376,7 @@ fields:
 
   - note: <hr>
   
-  - note: <p>{Consumer issues}<span>&nbsp;</span><span>&#9432;</span><br>
+  - note: <p>{Consumer issues|Consumer issues :far-fa-comment-dots:}</p>
   - 1) Your organization's impact: results[i].q11_konsum_est
     required: True
     code: |
@@ -397,7 +397,7 @@ fields:
 
   - note: <hr>
   
-  - note: <p>{Community involvement and development}<span>&nbsp;</span><span>&#9432;</span><br>
+  - note: <p>{Community involvement and development|Community involvement and development :far-fa-comment-dots:}</p>
   - 1) Your organization's impact: results[i].q11_samutv_est
     required: True
     code: |
@@ -417,7 +417,7 @@ fields:
 
   - note: <hr>
   
-  - note: <p>The last core subject deviates from the others since it is more a prerequisite for impacting within the other 6 core subjects.<br><br>The question thus becomes how significant {Organizational governance}<span>&nbsp;</span><span>&#9432;</span> is for an overall impact within the 6 mentioned core subjects.<br>  
+  - note: <p>{Organizational governance|Organizational governance :far-fa-comment-dots:}</p><h6>The last core subject deviates from the others since it is more a prerequisite for impacting within the other 6 core subjects.<br><br>The question thus becomes how significant {Organizational governance} is for an overall impact within the 6 mentioned core subjects.</h6><br>  
   - 1) Your organization's impact: results[i].q11_operation_est
     required: True
     code: |
@@ -491,6 +491,7 @@ fields:
       - The board
       - Others
     none of the above: False
+    minlength: 5
     maxlength: 5
 
   - note: <hr>
@@ -524,6 +525,7 @@ fields:
       - The board
       - Others
     none of the above: False
+    minlength: 5
     maxlength: 5
 
   - note: <hr>
@@ -558,6 +560,7 @@ fields:
       - The board
       - Others
     none of the above: False
+    minlength: 5
     maxlength: 5
 
 
@@ -644,6 +647,7 @@ fields:
       - 16 - Peace, Justice and Strong Institutions
       - 17 - Partnerships for the goals
     none of the above: False
+    minlength: 3
     maxlength: 3
 
   - note: <hr>
@@ -672,6 +676,7 @@ fields:
       - 16 - Peace, Justice and Strong Institutions
       - 17 - Partnerships for the goals
     none of the above: False
+    minlength: 3
     maxlength: 3
 
 continue button label: |
