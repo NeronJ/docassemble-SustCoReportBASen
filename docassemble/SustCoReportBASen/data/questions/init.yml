@@ -19,7 +19,10 @@ subquestion: |
  
   It takes an estimated 15-20 minutes to complete the questions, which generates a unique report for your company or organization.
   
-  The process is completely anonymous and no information that can be linked to you or your company or organization will be recorded. Read more about how submitted information is handled via the link {information management}.<br><br>
+  The process is completely anonymous and no information that can be linked to you or your company or organization will be recorded. Read more about how submitted information is handled via the link {information management}.
+  
+  Note that a few questions likely will be a bit difficult to give firm responses to. This is a consequence of the fact that they are designed in accordance with international standards. In these cases please estimate to the best of your ability.
+  <br><br>
 
 
 buttons:
@@ -288,7 +291,9 @@ subquestion: |
   1) How significant is ** your organization's current impact ** on the core subject area? <br> <br>
   2) How significant is ** your sector's current impact ** on the core subject area?<br> <br>
   3) How significant will ** your sector's impact be in 10 years ** on the core subject area? <br> <br>
-  4) How significant do you believe that ** your stakeholders think ** that your organization's impact is on the core subject area?<br> <br> <br>
+  4) How significant do you believe that ** your stakeholders think ** that your organization's impact is on the core subject area?<br><br>
+  *Note that you can get examples of the different core subjects by placing the mouse cursor on each core subject below*<br><br>
+  <br><br>
 fields:
   - note: <hr>
   
