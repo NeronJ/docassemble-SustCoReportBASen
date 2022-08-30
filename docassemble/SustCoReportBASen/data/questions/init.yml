@@ -968,7 +968,7 @@ template: sustcoreport_email
 subject: |
   Your SustCoReport 
 content: |
-  Dear sir or madam,
+  Dear Sir or Madam,
   
   Attached you'll find your SustCoReport.
 
