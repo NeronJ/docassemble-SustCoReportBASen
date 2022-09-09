@@ -10,7 +10,8 @@ modules:
 
 ---
 mandatory: True
-section: Introduktion
+section: Introduction
+id: introduction
 question:  |
   [FILE sustcoreport_logo]
 subquestion: |
@@ -979,6 +980,7 @@ section: Report
 email template: sustcoreport_email
 css class: report_download
 #decoration: sds_favicon
+id: last page
 question: Your SustCoReport is ready for download
 subquestion: Congratulations, you have now created your SustCoReport, which can form the basis for your organization's continued work to contribute to a sustainable development.<br><br>Good luck!
 attachments:
