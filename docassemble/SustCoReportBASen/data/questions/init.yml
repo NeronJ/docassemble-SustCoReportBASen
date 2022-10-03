@@ -115,7 +115,7 @@ depends on:
 section: Principles
 #decoration: sds_favicon
 question: |
-  ISO 26000: The 7 principles
+  The 7 main principles
 #* Genom att fråga om uppskattning betydelse/vikten och grad av principerna samt deras tillämpning får vi en uppskattning kring hur de svarande ser på de olika principerna och hur de själva anser att de implementerar principerna. Fråga 3 behandlar de svarandes syn på deras bransch och framtid betydelse, och den sista frågan ger en griv perceptionsbaserad uppskattning på organisations egna intressenters perspektiv.
 subquestion: |
   Describe how your organization relates to the 7 principles by answering the following questions: <br><br>
@@ -285,7 +285,7 @@ mandatory: True
 section: Core
 #decoration: sds_favicon
 question: |
-  ISO 26000: The 7 core subjects
+  The 7 main core subjects
 #* Genom att fråga om [...] 
 subquestion: |
   Describe how your organization relates to the 7 core subjects by answering the questions below: <br> <br>
@@ -457,7 +457,7 @@ back button label: |
 mandatory: True
 section: Stakeholders
 question: |
-  ISO 26000: Identify and engage stakeholders
+  Identify and engage stakeholders
 #* Genom att fråga om [...] 
 
 subquestion: |
@@ -583,7 +583,7 @@ mandatory: True
 section: Priorities
 #decoration: sds_favicon
 question: |
-    ISO 26000: Priorities
+    Priorities
 #* Genom att fråga om [...] 
 
 
