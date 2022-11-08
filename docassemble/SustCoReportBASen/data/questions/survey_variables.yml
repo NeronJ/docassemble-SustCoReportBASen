@@ -215,13 +215,18 @@ code: |
 
   scr_importance_likert = OrderedDict([ (1.0, '5 - Very important'), (0.75, '4 - Rather important'), (0.5, '3 - Neither'), (0.25, '2 - Rather unimportant'), (0.1, '1 - Very unimportant '), ])
 
-  scr_significance_likert = OrderedDict([ (1.0, '5 - Significant positive impact'), (0.75, '4 - Some positive impact'), (0.5, '3 - No direct impact'), (0.25, '2 - Some negative impact'), (0.1 , '1 - Significant negative impact'),])
+  scr_significance_likert = OrderedDict([ (1.0, '6 - Significant positive impact'), (0.75, '5 - Some positive impact'), (0.501, '4 - No direct impact'), (0.502, '3 - Both positive and negative impact'), (0.25, '2 - Some negative impact'), (0.1 , '1 - Significant negative impact'),])
 
   scr_application_likert = OrderedDict([ (1.0, '5 - Very large extent'), (0.75, '4 - Large extent'), (0.5, '3 - Some extent'), (0.25, '2 - Small extent'), (0.1, '1 - Not applicable'),])
 
   scr_effect_likert = OrderedDict( [(1.0, 'Large positive effect'), (0.75, 'Some positive effect'), (0.5, 'No effect'), (0.25, 'Some negative effect'), (0.1, 'Large negative effect'),] )
 
   scr_effect_stakeholders = OrderedDict([(1.0, 'Very large extent'), (0.75, 'Large extent'), (0.5, 'Some extent'), (0.25, 'Small extent'), (0.1, 'Not applicable') ])
+
+
+  scr_verkstyr_likert = OrderedDict([ (1.0, '5 - Very significant'), (0.75, '4 - Rather significant'), (0.5, '3 - Neither'), (0.25, '2 - Rather insignificant'), (0.1, '1 - Very insignificant'), ])
+
+
 
 ---
 

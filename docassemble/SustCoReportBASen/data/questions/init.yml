@@ -421,26 +421,27 @@ fields:
     required: True
     code: |
       scr_significance_likert
-
+      
   - note: <hr>
-  
-  - note: <p>{Organizational governance|Organizational governance :far-fa-comment-dots:}</p><h6>The last core subject deviates from the others since it is more a prerequisite for impacting within the other 6 core subjects.<br><br>The question thus becomes how significant {Organizational governance} is for an overall impact within the 6 mentioned core subjects.</h6><br>  
-  - 1) Your organization's impact: results[i].q11_operation_est
+
+  - note: <p>{Organizational governance|Organizational governance :far-fa-comment-dots:}</p><p style="font-size:14px;color:black;font-weight:normal">The last core subject deviates from the others since it is more a prerequisite for impacting within the other 6 core subjects.<br><br>The question thus becomes how significant {Organizational governance} is for achieving impact within the 6 mentioned core subjects?</p><br>  
+
+  - 1) Significance for your organization: results[i].q11_operation_est
     required: True
     code: |
-      scr_significance_likert
-  - 2) Your sector's impact <u>today</u>: results[i].q11_operation_est_industry
+      scr_verkstyr_likert
+  - 2) Significance for your sector <u>today</u>: results[i].q11_operation_est_industry
     required: True
     code: |
-      scr_significance_likert
-  - 3) Your sector's impact <u>in 10 years</u>: results[i].q11_operation_est_industry_10
+      scr_verkstyr_likert
+  - 3) Significance for your sector <u>in 10 years</u>: results[i].q11_operation_est_industry_10
     required: True
     code: |
-      scr_significance_likert
-  - 4) Your organization's impact according to <u>key stakeholders</u><br><br>: results[i].q11_operation_est_stakeh
+      scr_verkstyr_likert
+  - 4) Significance according to <u>key stakeholders</u><br><br>: results[i].q11_operation_est_stakeh
     required: True
     code: |
-      scr_significance_likert
+      scr_verkstyr_likert
 
 
   - note: <hr>
@@ -476,26 +477,27 @@ fields:
     required: True
     datatype: checkboxes
     choices:
-      - Shareholder
       - Banks
-      - Sector organizations
-      - Trade unions
-      - Investors
-      - Insurance companies
+      - Board
       - Colleges/Universities
-      - Non-governmental organizations
-      - Financiers
       - Consumers
-      - Customers
-      - Suppliers
       - Coworkers/employees
+      - Customers
       - Employees' families
+      - Financiers
+      - General public
+      - Insurance companies
+      - Investors
       - Media
       - Members
-      - Public agencies
       - Next generation (younger people)
+      - Non-governmental organizations
       - Partners
-      - The board
+      - Public agencies
+      - Sector organizations
+      - Shareholder
+      - Suppliers
+      - Trade unions
       - Others
     none of the above: False
     minlength: 5
@@ -510,26 +512,27 @@ fields:
     #help: |
     #  Ansvarighet - att stå till svars för konsekvenserna av tagna beslut och genomförda aktiviteter.
     choices:
-      - Shareholder
       - Banks
-      - Sector organizations
-      - Trade unions
-      - Investors
-      - Insurance companies
+      - Board
       - Colleges/Universities
-      - Non-governmental organizations
-      - Financiers
       - Consumers
-      - Customers
-      - Suppliers
       - Coworkers/employees
+      - Customers
       - Employees' families
+      - Financiers
+      - General public
+      - Insurance companies
+      - Investors
       - Media
       - Members
-      - Public agencies
       - Next generation (younger people)
+      - Non-governmental organizations
       - Partners
-      - The board
+      - Public agencies
+      - Sector organizations
+      - Shareholder
+      - Suppliers
+      - Trade unions
       - Others
     none of the above: False
     minlength: 5
@@ -545,26 +548,27 @@ fields:
     #help: |
     #  Ansvarighet - att stå till svars för konsekvenserna av tagna beslut och genomförda aktiviteter.
     choices:
-      - Shareholder
       - Banks
-      - Sector organizations
-      - Trade unions
-      - Investors
-      - Insurance companies
+      - Board
       - Colleges/Universities
-      - Non-governmental organizations
-      - Financiers
       - Consumers
-      - Customers
-      - Suppliers
       - Coworkers/employees
+      - Customers
       - Employees' families
+      - Financiers
+      - General public
+      - Insurance companies
+      - Investors
       - Media
       - Members
-      - Public agencies
       - Next generation (younger people)
+      - Non-governmental organizations
       - Partners
-      - The board
+      - Public agencies
+      - Sector organizations
+      - Shareholder
+      - Suppliers
+      - Trade unions
       - Others
     none of the above: False
     minlength: 5
